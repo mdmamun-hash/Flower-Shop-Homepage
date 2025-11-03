@@ -3,11 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Flower Shop Homepage</title>
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <section class="hero-section">
+        <div class="hero-text">
+            <h1 class="hero-title">Let's make beautiful flowers a part of your life.</h1>
+            <p class="hero-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+            <button class="hero-btn">Shop Now</button>
+        </div>
+        <div class="hero-img">
+            <img src="Flower Asset/pngwing 10.png" alt="">
+        </div>
+        </section>
+    </header>
+    <main>
+        <section class="featured-flowers">
+            <h3 class="featured-flowers-title">Our Featured Flowers</h3>
+            <p class="featured-flowers-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <div class="featured-flowers-imgs">
+                <div class="featured-flower">
+                    <div class="flowers-img " id="pink">
+                        <img src="Flower Asset/pngwing 6.png" alt="">
+                    </div>
+                    <div class="flowers-name"><a href="">Pink Flower Tree</a></div>
+                </div>
+                <div class="featured-flower">
+                    <div class="flowers-img" id="blue">
+                        <img src="Flower Asset/pngwing 5.png" alt="">
+                    </div>
+                    <div class="flowers-name"><a href="">Pink Flower Tree</a></div>
+                </div>
+                <div class="featured-flower">
+                    <div class="flowers-img" id="green">
+                        <img src="Flower Asset/pngwing 7.png" alt="">
+                    </div>
+                    <div class="flowers-name"><a href="">Pink Flower Tree</a></div>
+                </div>
+            </div>
+        </section>
+        <section class="delivery">
+            <div>
+                <div class="icon"><img src="Flower Asset/Group 57.png" alt=""></div>
+                <div class="text">Same Day Delivery. Click & Collect.</div>
+            </div>
+            <div>
+                <div class="icon"><img src="Flower Asset/Group 58.png" alt=""></div>
+                <div class="text">Fresh Flowers. Local Growers.</div>
+            </div>
+            <div>
+                <div class="icon"><img src="Flower Asset/Group 59.png" alt=""></div>
+                <div class="text">24/7 Free Support.</div>
+            </div>
+        </section>
+        <section class="sale">
+            <div class="sale-text">
+              <h2 class="sale-title">Hot Deal ! Sale Up To 25% <span style="color: rgba(229, 84, 115, 1);">Off</span></h2>
+              <p class="sale-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <div class="sign-up"><button class="sale-btn btn">Sign Up</button></div>
+            </div>
+            <div class="sale-img">
+               <img src="Flower Asset/pngwing 8.png" alt=""> 
+            </div>
+        </section>
+        <section class="Instagram">
+            <div class="insta-text">
+                <h3 class="insta-title">Instagram</h3>
+                <p class="insta-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="insta-imgs">
+                <img src="Flower Asset/Flower 01.png" alt="">
+                <img src="Flower Asset/Rectangle 4.png" alt="">
+                <img src="Flower Asset/Rectangle 5.png" alt="">
+                <img src="Flower Asset/Rectangle 6.png" alt="">
+            </div>
+        </section>
+        <section class="get-update">
+            <h1 class="get-update-title">Get The Latest Deals</h1>
+            <p class="get-update-description">$30 coupon for first shopping</p>
+            <form >
+                <input placeholder="Enter your email here...." type="email" name="" id="email-input">
+                <input type="submit" id="subscribe" class="btn" value="Subscribe">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h1>FlowerShop</h1>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <p>&copy;2020-2023, FlowerShop.com. All rights reserved. </p>
+    </footer>
 </body>
 </html>
